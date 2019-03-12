@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="468.17499999999995" y="1717.0">evaluator.main.StartApp</node>
+    <node x="671.0" y="1241.0">evaluator.model.Quiz</node>
+    <node x="507.6527777777777" y="424.0">evaluator.util.InputValidation</node>
+    <node x="520.6527777777777" y="635.0">evaluator.model.Question</node>
+    <node x="944.0" y="1263.5">evaluator.exception.NotAbleToCreateStatisticsException</node>
+    <node x="25.83611111111111" y="833.5">evaluator.exception.DuplicateException</node>
+    <node x="437.0" y="1263.5">evaluator.exception.NotAbleToCreateTestException</node>
+    <node x="523.6527777777777" y="323.0">evaluator.exception.InputValidationFailedException</node>
+    <node x="-245.0" y="1219.0">evaluator.model.Statistic</node>
+    <node x="102.0" y="1153.0">evaluator.repository.QuizRepository</node>
+    <node x="226.8361111111111" y="822.5">evaluator.repository.Repository</node>
+    <node x="418.67499999999995" y="1505.0">evaluator.controller.AppController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="evaluator.repository.QuizRepository" target="evaluator.repository.Repository">
+      <point x="-63.0" y="-136.0" />
+      <point x="441.5" y="780.0" />
+      <point x="550.8361111111111" y="780.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="552.9999999999998" y="941.8333333333333" />
+  <SelectedNodes>
+    <node>evaluator.main.StartApp</node>
+    <node>evaluator.model.Quiz</node>
+    <node>evaluator.util.InputValidation</node>
+    <node>evaluator.model.Question</node>
+    <node>evaluator.exception.NotAbleToCreateStatisticsException</node>
+    <node>evaluator.exception.DuplicateException</node>
+    <node>evaluator.exception.NotAbleToCreateTestException</node>
+    <node>evaluator.exception.InputValidationFailedException</node>
+    <node>evaluator.model.Statistic</node>
+    <node>evaluator.repository.QuizRepository</node>
+    <node>evaluator.repository.Repository</node>
+    <node>evaluator.controller.AppController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
