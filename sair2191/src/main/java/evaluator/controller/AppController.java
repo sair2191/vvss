@@ -1,4 +1,4 @@
-package evaluator.controller;
+package controller;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -6,13 +6,14 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
-import evaluator.model.Question;
-import evaluator.model.Statistic;
-import evaluator.model.Quiz;
-import evaluator.repository.QuizRepository;
-import evaluator.exception.DuplicateException;
-import evaluator.exception.NotAbleToCreateStatisticsException;
-import evaluator.exception.NotAbleToCreateTestException;
+import exception.DuplicateException;
+import exception.NotAbleToCreateStatisticsException;
+import exception.NotAbleToCreateTestException;
+import model.Question;
+import model.Quiz;
+import model.Statistic;
+import repository.QuizRepository;
+
 
 public class AppController {
 
@@ -34,7 +35,7 @@ public class AppController {
 		return questionRepository.exists(quiz);
 	}
 
-	public Quiz createNewTest() throws NotAbleToCreateTestException{
+	public Quiz createNewTest() throws NotAbleToCreateTestException {
 
 
 		if(questionRepository.getQuestions().size() < 5)
@@ -64,16 +65,16 @@ public class AppController {
 		if(testIntrebari.size() == 5) {
 			test.setQuestions(testIntrebari);
 			System.out.println("Quiz creat cu succes");
-		}
+}
 		return test;
 
-	}
+				}
 
 	public void loadQuestionsFromFile(String f){
 		questionRepository.setQuestions(questionRepository.loadQuestionsFromFile(f));
 	}
 
-	public Statistic getStatistic() throws NotAbleToCreateStatisticsException{
+	public Statistic getStatistic() throws NotAbleToCreateStatisticsException {
 
 		if(questionRepository.getQuestions().isEmpty())
 			throw new NotAbleToCreateStatisticsException("Repository-ul nu contine nicio intrebare!");
@@ -85,4 +86,7 @@ public class AppController {
 		return statistic;
 	}
 
+	public QuizRepository getQuestionRepository(){
+		return this.questionRepository;
+	}
 }

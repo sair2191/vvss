@@ -1,7 +1,7 @@
-package evaluator.model;
+package model;
 
-import evaluator.util.InputValidation;
-import evaluator.exception.InputValidationFailedException;
+import exception.InputValidationFailedException;
+import util.InputValidation;
 
 public class Question {
 

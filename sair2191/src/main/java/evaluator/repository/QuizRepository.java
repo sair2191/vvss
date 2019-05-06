@@ -1,4 +1,7 @@
-package evaluator.repository;
+package repository;
+
+import exception.DuplicateException;
+import model.Question;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -7,10 +10,7 @@ import java.io.IOException;
 import java.util.*;
 
 
-import evaluator.model.Question;
-import evaluator.exception.DuplicateException;
-
-public class QuizRepository implements Repository<Question> {
+public class QuizRepository implements repository.Repository<Question> {
 
 	private List<Question> questions;
 
@@ -113,7 +113,7 @@ public class QuizRepository implements Repository<Question> {
 		finally{
 			try {
 				br.close();
-			} catch (IOException e) {
+			} catch (IOException | NullPointerException e) {
 				// TODO: handle exception
 			}
 		}

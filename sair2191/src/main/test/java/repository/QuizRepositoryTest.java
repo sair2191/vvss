@@ -1,8 +1,7 @@
-package evaluator.repository;
+package repository;
 
-import evaluator.exception.InputValidationFailedException;
-import evaluator.model.Question;
-import evaluator.model.Quiz;
+import exception.InputValidationFailedException;
+import model.Question;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -12,7 +11,6 @@ public class QuizRepositoryTest {
     public void add() throws Exception {
         Question q=new Question("Ce este?","1)2","2)3","3)3","1","Fizica");
         assertNotNull(q);
-
     }
 
     @Test(expected = InputValidationFailedException.class)
@@ -50,5 +48,21 @@ public class QuizRepositoryTest {
         Question q=new Question("Ce esteddddddddddddddddddddddddddddds?","1)2","2)3","3)3","","Fizica");
         assertNull(q);
 
+    }
+
+    @Test
+    public void testValidQuestionsLoaded()
+    {
+        final String file = "intrebari.txt";
+        QuizRepository quizRepository = new QuizRepository();
+        assertTrue(quizRepository.loadQuestionsFromFile(file).size() > 0);
+    }
+
+    @Test
+    public void testUnvalidQuestionsLoaded()
+    {
+        final String file = "intrebari22222.txt";
+        QuizRepository quizRepository = new QuizRepository();
+        assertTrue( quizRepository.loadQuestionsFromFile(file).size() == 0);
     }
 }

@@ -1,11 +1,10 @@
-package evaluator.util;
+package util;
 
-
-import evaluator.exception.InputValidationFailedException;
+import exception.InputValidationFailedException;
 
 public class InputValidation {
 
-	public static void validateStatement(String enunt) throws InputValidationFailedException{
+	public static void validateStatement(String enunt) throws InputValidationFailedException {
 
 		enunt = enunt.trim();
 

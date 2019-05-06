@@ -1,18 +1,17 @@
-package evaluator.main;
+package main;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import evaluator.exception.DuplicateException;
-import evaluator.exception.InputValidationFailedException;
-import evaluator.exception.NotAbleToCreateTestException;
-import evaluator.model.Question;
-import evaluator.model.Quiz;
-import evaluator.model.Statistic;
-
-import evaluator.controller.AppController;
-import evaluator.exception.NotAbleToCreateStatisticsException;
+import controller.AppController;
+import exception.DuplicateException;
+import exception.InputValidationFailedException;
+import exception.NotAbleToCreateStatisticsException;
+import exception.NotAbleToCreateTestException;
+import model.Question;
+import model.Quiz;
+import model.Statistic;
 
 //functionalitati
 //F01.	 adaugarea unei noi intrebari pentru un anumit domeniu (enunt intrebare, raspuns 1, raspuns 2, raspuns 3, raspunsul corect, domeniul) in setul de intrebari disponibile;

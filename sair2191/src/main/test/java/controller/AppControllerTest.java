@@ -1,8 +1,7 @@
 package controller;
 
-import evaluator.controller.AppController;
-import evaluator.exception.NotAbleToCreateTestException;
-import evaluator.model.Quiz;
+import exception.NotAbleToCreateTestException;
+import model.Quiz;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -13,7 +12,6 @@ public class AppControllerTest {
     public void createNewTest() throws Exception {
         AppController appController = new AppController();
         appController.createNewTest();
-
     }
     //valid
     @Test

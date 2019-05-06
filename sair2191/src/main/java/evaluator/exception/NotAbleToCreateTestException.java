@@ -1,4 +1,4 @@
-package evaluator.exception;
+package exception;
 
 public class NotAbleToCreateTestException extends Exception {
 

@@ -1,11 +1,11 @@
-package evaluator.repository;
+package repository;
 
-import evaluator.exception.DuplicateException;
+import exception.DuplicateException;
 
 import java.io.IOException;
 
 public interface Repository<T>{
-     void add(T obj) throws DuplicateException, IOException;
+     void add(T obj) throws DuplicateException, IOException, DuplicateException;
      boolean exists(T obj);
 
 }
