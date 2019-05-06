@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2db94b98-9b2b-4a0f-9a70-7d74003187e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sair2191.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sair2191.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/test/java/top_down/TopDownTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/sair2191/controller/AppControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/sair2191/controller/AppControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/sair2191/evaluator/repository/QuizRepositoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/exception/DuplicateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/exception/DuplicateException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/exception/InputValidationFailedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/exception/InputValidationFailedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateStatisticsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateStatisticsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateTestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateTestException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/main/StartApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/main/StartApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/model/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/model/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/model/Quiz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/model/Statistic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/model/Statistic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/repository/QuizRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/repository/QuizRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/repository/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/repository/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/util/InputValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/util/InputValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/java/controller/AppControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/controller/AppControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/java/repository/QuizRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/java/repository/QuizRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/controller/AppController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/exception/DuplicateException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/exception/InputValidationFailedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/exception/NotAbleToCreateStatisticsException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/exception/NotAbleToCreateTestException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/main/StartApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/model/Question.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/model/Quiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/model/Statistic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/repository/QuizRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/repository/Repository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/evaluator/util/InputValidation.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/sair2191$TopDownTest.ic" NAME="TopDownTest Coverage Results" MODIFIED="1557178087779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/sair2191$TopDownTest.ic" NAME="TopDownTest Coverage Results" MODIFIED="1557180841023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>top_down.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/sair2191$BigBangTest.ic" NAME="BigBangTest Coverage Results" MODIFIED="1557180881667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>big_bang.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/sair2191$QuizRepositoryTest.ic" NAME="QuizRepositoryTest Coverage Results" MODIFIED="1557174779456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>repository.*</FILTER>
@@ -107,12 +82,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="665" />
+          <entry key="java" value="666" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="665" />
+          <entry key="JAVA" value="666" />
+          <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -134,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/util/InputValidation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="150">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
@@ -152,11 +129,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/test/java/big_bang/BigBangTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="56" column="38" lean-forward="true" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+            <state relative-caret-position="167">
+              <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,11 +141,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/test/java/top_down/TopDownTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+            <state relative-caret-position="183">
+              <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -462,7 +439,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557180647227" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557180912877" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -486,7 +463,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TopDownTest">
+  <component name="RunManager" selected="JUnit.BigBangTest">
     <configuration name="StartApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -524,6 +501,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BigBangTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sair2191" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="big_bang.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="big_bang" />
+      <option name="MAIN_CLASS_NAME" value="big_bang.BigBangTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuizRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sair2191" />
       <extension name="coverage">
@@ -557,9 +548,11 @@
       <item itemvalue="JUnit.AppControllerTest" />
       <item itemvalue="JUnit.QuizRepositoryTest" />
       <item itemvalue="JUnit.TopDownTest" />
+      <item itemvalue="JUnit.BigBangTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BigBangTest" />
         <item itemvalue="JUnit.TopDownTest" />
         <item itemvalue="JUnit.AppControllerTest" />
         <item itemvalue="JUnit.QuizRepositoryTest" />
@@ -584,29 +577,19 @@
       <workItem from="1555434183254" duration="934000" />
       <workItem from="1555446166185" duration="600000" />
       <workItem from="1556554525503" duration="32000" />
-      <workItem from="1557172885590" duration="5321000" />
+      <workItem from="1557172885590" duration="5528000" />
     </task>
+    <task id="LOCAL-00001" summary="lab4">
+      <created>1557180691109</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557180691109</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuizRepositoryTest - 2019.05.06 at 23h 32m 21s.xml">
-      <configuration name="QuizRepositoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuizRepositoryTest - 2019.05.06 at 23h 32m 50s.xml">
-      <configuration name="QuizRepositoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QuizRepositoryTest - 2019.05.06 at 23h 33m 19s.xml">
-      <configuration name="QuizRepositoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppControllerTest - 2019.05.06 at 23h 48m 34s.xml">
-      <configuration name="AppControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppControllerTest - 2019.05.06 at 23h 52m 26s.xml">
-      <configuration name="AppControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppControllerTest - 2019.05.07 at 00h 03m 19s.xml">
-      <configuration name="AppControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TopDownTest - 2019.05.07 at 00h 12m 30s.xml">
       <configuration name="TopDownTest" configurationId="JUnit" />
     </history-entry>
@@ -619,15 +602,33 @@
     <history-entry file="TopDownTest - 2019.05.07 at 00h 28m 23s.xml">
       <configuration name="TopDownTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TopDownTest - 2019.05.07 at 01h 11m 37s.xml">
+      <configuration name="TopDownTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigBangTest - 2019.05.07 at 01h 12m 16s.xml">
+      <configuration name="BigBangTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigBangTest - 2019.05.07 at 01h 12m 58s.xml">
+      <configuration name="BigBangTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigBangTest - 2019.05.07 at 01h 13m 40s.xml">
+      <configuration name="BigBangTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TopDownTest - 2019.05.07 at 01h 14m 16s.xml">
+      <configuration name="TopDownTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BigBangTest - 2019.05.07 at 01h 14m 56s.xml">
+      <configuration name="BigBangTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13948000" />
+    <option name="totallyTimeSpent" value="14155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22751679" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22751679" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -655,7 +656,7 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.3295302" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.3295302" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -663,6 +664,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab4" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -815,23 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/util/InputValidation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/java/controller/AppControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -877,20 +865,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/java/big_bang/BigBangTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/model/Question.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="56" column="38" lean-forward="true" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        <state relative-caret-position="150">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/util/InputValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/java/top_down/TopDownTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="62" column="30" lean-forward="true" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+        <state relative-caret-position="183">
+          <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/java/big_bang/BigBangTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
