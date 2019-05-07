@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24bf371e-6c5c-4684-9b72-ced7fbadb504" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/sair2191/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sair2191/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sair2191/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sair2191/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sair2191/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sair2191/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sair2191/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/.idea/sair2191.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sair2191/.idea/sair2191.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sair2191/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sair2191/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sair2191/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/Docs/Lab01/Diagram_v2.0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/Docs/Lab01/Lab01_ReviewReport.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/Docs/Lab01/Requirements_v2.0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/Docs/Lab02/Lab02_BBT_TCs_Form.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/Docs/Lab02/Prj236_test_spec-2019-04-15.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/ProiectEvaluatorExamen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sair2191/ProiectEvaluatorExamen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/intrebari.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sair2191/intrebari.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/out/production/sair2191/evaluator/controller/AppController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/out/production/sair2191/evaluator/exception/DuplicateException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/out/production/sair2191/evaluator/exception/InputValidationFailedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/out/production/sair2191/evaluator/exception/NotAbleToCreateStatisticsException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/out/production/sair2191/evaluator/exception/NotAbleToCreateTestException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/out/production/sair2191/evaluator/main/StartApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/out/production/sair2191/evaluator/model/Question.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/out/production/sair2191/evaluator/model/Quiz.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/out/production/sair2191/evaluator/model/Statistic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/out/production/sair2191/evaluator/repository/QuizRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/out/production/sair2191/evaluator/repository/Repository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/out/production/sair2191/evaluator/util/InputValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/out/test/sair2191/controller/AppControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sair2191/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/src/diagrama.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/src/main/java/evaluator/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sair2191/src/main/java/evaluator/controller/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/src/main/java/evaluator/exception/DuplicateException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/src/main/java/evaluator/exception/InputValidationFailedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/sair2191/src/main/java/evaluator/exception/InputValidationFailedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/src/main/java/evaluator/exception/NotAbleToCreateStatisticsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/sair2191/src/main/java/evaluator/exception/NotAbleToCreateStatisticsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/src/main/java/evaluator/exception/NotAbleToCreateTestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/sair2191/src/main/java/evaluator/exception/NotAbleToCreateTestException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/src/main/java/evaluator/main/StartApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/sair2191/src/main/java/evaluator/main/StartApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/src/main/java/evaluator/model/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/src/main/java/evaluator/model/Quiz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/src/main/java/evaluator/model/Statistic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/src/main/java/evaluator/repository/QuizRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/src/main/java/evaluator/repository/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/src/main/java/evaluator/util/InputValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/sair2191/src/main/java/evaluator/util/InputValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/src/test/java/controller/AppControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/src/test/java/repository/QuizRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sair2191/src/test/java/top_down/TopDownTest.java" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1690325999">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="12" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="12" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sair2191/src/main/java/evaluator/controller/AppController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sair2191/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sair2191/src/main/java/evaluator/exception/NotAbleToCreateStatisticsException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sair2191/src/main/java/evaluator/exception/NotAbleToCreateTestException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sair2191/src/main/java/evaluator/main/StartApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="D:/ubb.dp.1819" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sair2191/src/main/java/evaluator/exception/DuplicateException.java" />
+        <option value="$PROJECT_DIR$/sair2191/src/main/java/evaluator/exception/InputValidationFailedException.java" />
+        <option value="$PROJECT_DIR$/sair2191/src/main/java/evaluator/exception/NotAbleToCreateStatisticsException.java" />
+        <option value="$PROJECT_DIR$/sair2191/src/main/java/evaluator/exception/NotAbleToCreateTestException.java" />
+        <option value="$PROJECT_DIR$/sair2191/src/main/java/evaluator/model/Quiz.java" />
+        <option value="$PROJECT_DIR$/sair2191/src/main/java/evaluator/model/Statistic.java" />
+        <option value="$PROJECT_DIR$/sair2191/src/main/java/evaluator/model/Question.java" />
+        <option value="$PROJECT_DIR$/sair2191/src/main/java/evaluator/main/StartApp.java" />
+        <option value="$PROJECT_DIR$/sair2191/src/main/java/evaluator/repository/QuizRepository.java" />
+        <option value="$PROJECT_DIR$/sair2191/src/main/java/evaluator/controller/AppController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1090" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
+              <item name="sair2191" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
+              <item name="sair2191" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
+              <item name="sair2191" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
+              <item name="sair2191" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
+              <item name="sair2191" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
+              <item name="sair2191" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
+              <item name="sair2191" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
+              <item name="sair2191" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
+              <item name="sair2191" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
+              <item name="sair2191" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
+              <item name="sair2191" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
+              <item name="sair2191" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
+              <item name="sair2191" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="evaluator" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
+              <item name="sair2191" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vvss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vvss" type="462c0819:PsiDirectoryNode" />
+              <item name="sair2191" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557172500950" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sair2191/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24bf371e-6c5c-4684-9b72-ced7fbadb504" name="Default Changelist" comment="" />
+      <created>1555434265506</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555434265506</updated>
+      <workItem from="1555434266911" duration="17000" />
+      <workItem from="1557170258489" duration="2013000" />
+      <workItem from="1557237343455" duration="15000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2045000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.3295302" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sair2191/src/main/java/evaluator/repository/QuizRepository.java" />
+    <entry file="file://$PROJECT_DIR$/sair2191/src/main/java/evaluator/exception/DuplicateException.java" />
+    <entry file="file://$PROJECT_DIR$/sair2191/src/main/java/evaluator/exception/InputValidationFailedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sair2191/src/main/java/evaluator/model/Question.java" />
+    <entry file="file://$PROJECT_DIR$/sair2191/src/main/java/evaluator/model/Quiz.java" />
+    <entry file="file://$PROJECT_DIR$/sair2191/src/main/java/evaluator/model/Statistic.java" />
+    <entry file="file://$PROJECT_DIR$/sair2191/src/main/test/java/repository/QuizRepositoryTest.java" />
+    <entry file="file://$PROJECT_DIR$/sair2191/src/main/test/java/controller/AppControllerTest.java" />
+    <entry file="file://$PROJECT_DIR$/sair2191/src/main/java/evaluator/controller/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sair2191/src/main/java/evaluator/exception/NotAbleToCreateStatisticsException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sair2191/src/main/java/evaluator/exception/NotAbleToCreateTestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sair2191/src/main/java/evaluator/main/StartApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sair2191/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

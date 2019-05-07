@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2db94b98-9b2b-4a0f-9a70-7d74003187e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sair2191.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sair2191.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/Lab01/Diagram_v2.0.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/Lab01/Lab01_ReviewReport.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/Lab01/Requirements_v2.0.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/Lab02/Lab02_BBT_TCs_Form.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Docs/Lab02/Prj236_test_spec-2019-04-15.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/intrebari.txt" beforeDir="false" afterPath="$PROJECT_DIR$/intrebari.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sair2191/evaluator/controller/AppController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sair2191/evaluator/exception/DuplicateException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sair2191/evaluator/exception/InputValidationFailedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sair2191/evaluator/exception/NotAbleToCreateStatisticsException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sair2191/evaluator/exception/NotAbleToCreateTestException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sair2191/evaluator/main/StartApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sair2191/evaluator/model/Question.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sair2191/evaluator/model/Quiz.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sair2191/evaluator/model/Statistic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sair2191/evaluator/repository/QuizRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sair2191/evaluator/repository/Repository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sair2191/evaluator/util/InputValidation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/sair2191/controller/AppControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/diagrama.uml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/controller/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/exception/DuplicateException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/exception/InputValidationFailedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/exception/InputValidationFailedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateStatisticsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateStatisticsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateTestException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/exception/NotAbleToCreateTestException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/main/StartApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/main/StartApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/model/Question.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/model/Quiz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/model/Statistic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/repository/QuizRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/repository/Repository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/evaluator/util/InputValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/evaluator/util/InputValidation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/java/controller/AppControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/java/repository/QuizRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/java/top_down/TopDownTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -130,25 +89,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="666" />
-          <entry key="txt" value="55" />
+          <entry key="txt" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="666" />
-          <entry key="PLAIN_TEXT" value="55" />
+          <entry key="PLAIN_TEXT" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="25" />
+          <entry key="java" value="27" />
           <entry key="txt" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="25" />
+          <entry key="JAVA" value="27" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="1" />
         </counts>
@@ -178,8 +137,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="354">
+              <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/F02Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -211,11 +182,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/main/StartApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+            <state relative-caret-position="354">
+              <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/exception/DuplicateIntrebareException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -302,6 +282,25 @@
               <item name="sair2191" type="462c0819:PsiDirectoryNode" />
               <item name="Docs" type="462c0819:PsiDirectoryNode" />
               <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sair2191" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sair2191" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sair2191" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sair2191" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sair2191" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sair2191" type="462c0819:PsiDirectoryNode" />
+              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab4" type="462c0819:PsiDirectoryNode" />
+              <item name="Prj236_test_spec-2019-05-06_files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="sair2191" type="b2602c69:ProjectViewProjectNode" />
@@ -414,7 +413,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557238436643" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557239539117" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -545,7 +544,7 @@
       <workItem from="1557172885590" duration="8204000" />
       <workItem from="1557236806152" duration="39000" />
       <workItem from="1557237025155" duration="66000" />
-      <workItem from="1557237195420" duration="1124000" />
+      <workItem from="1557237195420" duration="2534000" />
     </task>
     <task id="LOCAL-00001" summary="lab4">
       <created>1557180691109</created>
@@ -575,13 +574,24 @@
       <option name="project" value="LOCAL" />
       <updated>1557237713876</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changed project structure">
+      <created>1557238383834</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557238383834</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added some more classes">
+      <created>1557238501593</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557238501593</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TopDownTest - 2019.05.07 at 01h 11m 37s.xml">
-      <configuration name="TopDownTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BigBangTest - 2019.05.07 at 01h 12m 16s.xml">
       <configuration name="BigBangTest" configurationId="JUnit" />
     </history-entry>
@@ -609,13 +619,15 @@
     <history-entry file="TopDown - 2019.05.07 at 17h 01m 21s.xml">
       <configuration name="TopDown" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TopDown - 2019.05.07 at 17h 15m 22s.xml">
+      <configuration name="TopDown" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18060000" />
+    <option name="totallyTimeSpent" value="19470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23758389" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -661,7 +673,8 @@
     <MESSAGE value="lab4" />
     <MESSAGE value="lab4 some changes" />
     <MESSAGE value="changed project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed project structure" />
+    <MESSAGE value="added some more classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some more classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -751,13 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/F03Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -774,8 +780,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/main/StartApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+        <state relative-caret-position="354">
+          <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/evaluator/exception/DuplicateIntrebareException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/BigBang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/evaluator/controller/F02Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
         </state>
       </provider>
     </entry>
