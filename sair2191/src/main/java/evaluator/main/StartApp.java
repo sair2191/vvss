@@ -1,17 +1,12 @@
-package main;
+package evaluator.main;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
+import java.util.ArrayList;
 
-import controller.AppController;
-import exception.DuplicateException;
-import exception.InputValidationFailedException;
-import exception.NotAbleToCreateStatisticsException;
-import exception.NotAbleToCreateTestException;
-import model.Question;
-import model.Quiz;
-import model.Statistic;
+import evaluator.exception.*;
+import evaluator.model.Statistica;
+
+import evaluator.controller.AppController;
 
 //functionalitati
 //F01.	 adaugarea unei noi intrebari pentru un anumit domeniu (enunt intrebare, raspuns 1, raspuns 2, raspuns 3, raspunsul corect, domeniul) in setul de intrebari disponibile;
@@ -20,65 +15,94 @@ import model.Statistic;
 
 public class StartApp {
 
-	private static final String file = "intrebari.txt";
+    public static final String file = "intrebari.txt";
 
-	public static void main(String[] args) throws IOException, InputValidationFailedException, DuplicateException, NotAbleToCreateTestException {
+    public static void main(String[] args) throws IOException {
 
-		BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
+        BufferedReader console = new BufferedReader(new InputStreamReader(System.in));
 
-		AppController appController = new AppController();
+        AppController appController = new AppController();
 
-		boolean activ = true;
-		String optiune = null;
+        boolean activ = true;
+        String optiune;
 
-		while (activ) {
+        while (activ) {
 
-			System.out.println("");
-			System.out.println("1.Adauga intrebare");
-			System.out.println("2.Creeaza quiz");
-			System.out.println("3.Statistic");
-			System.out.println("4.Exit");
-			System.out.println("");
+            System.out.println();
+            System.out.println("1.Adauga intrebare");
+            System.out.println("2.Creeaza test");
+            System.out.println("3.Statistica");
+            System.out.println("4.Exit");
+            System.out.println();
 
-			optiune = console.readLine();
+            optiune = console.readLine();
 
-			switch (optiune) {
-				case "1":
-					appController.addNewQuestion(new Question("Ce este v2?", "1) sda", "2) dsa", "3) dsa", "2", "Test"));
-					break;
-				case "2": {
-					appController.loadQuestionsFromFile("intrebari.txt");
-					Quiz q=appController.createNewTest();
-					for (Question intrebare:q.getQuestions()){
-						System.out.println(intrebare.getStatement());
-					}
+            switch (optiune) {
+                case "1":
+                    try {
+                        ArrayList<String> domains = new ArrayList<>(appController.getUniqueDomains());
+                        System.out.println("Alegeti domeniul : ");
+                        int i = 1;
+                        for (String domain : domains) {
+                            System.out.println(i++ + "." + domain);
+                        }
+
+                        String option = console.readLine();
+                        try {
+                            int op = Integer.parseInt(option);
+                            if (op > domains.size() || op < 0) {
+                                throw new NumberFormatException();
+                            }
+                            System.out.println("Introduceti intrebarea: ");
+                            String enunt = console.readLine();
+                            String[] raspunsuri = new String[3];
+                            System.out.println("Introduceti primul raspuns: ");
+                            raspunsuri[0] = "1)".concat(console.readLine());
+                            System.out.println("Introduceti al doilea raspuns: ");
+                            raspunsuri[1] = "2)".concat(console.readLine());
+                            System.out.println("Introduceti al treilea raspuns: ");
+                            raspunsuri[2] = "3)".concat(console.readLine());
+                            System.out.println("Introcudeti numarul raspunsului corect:");
+                            String raspunsCorect = console.readLine();
+                            appController.addQuestion(enunt, raspunsuri[0],raspunsuri[1],raspunsuri[2], raspunsCorect,domains.get(Integer.parseInt(raspunsCorect)));
+                        } catch (NumberFormatException ex) {
+                            System.err.println("Opstiunea nu este valida");
+                        } catch (IndexOutOfBoundsException e) {
+                            System.err.println("Aceasta optiune nu exista sau nu este valida");
+                        } catch (DuplicateIntrebareException | InputValidationFailedException e) {
+                            System.err.println(e.getMessage());
+                        }
+                    }catch (NumberFormatException e){
+                        System.err.println(e.getMessage());
+                    }
+                    break;
+                case "2":
+                    try {
+                        appController.createNewTest();
+                    } catch (NotAbleToCreateTestException e) {
+                        System.err.println(e.getMessage());
+                    }
+                    break;
+                case "3":
+                    appController.loadIntrebariFromFile(file);
+                    Statistica statistica;
+                    try {
+                        statistica = appController.getStatistica();
+                        System.out.println(statistica);
+                    } catch (NotAbleToCreateStatisticsException e) {
+                        System.err.println(e.getMessage());
+                    }
+
+                    break;
+                case "4":
+                    activ = false;
+                    break;
+                default:
+                    break;
+            }
+        }
+
+    }
 
 
-					break;
-				}
-				case "3": {
-					appController.loadQuestionsFromFile(file);
-				}
-				Statistic statistic;
-				try {
-					statistic = appController.getStatistic();
-					System.out.println(statistic);
-				} catch (NotAbleToCreateStatisticsException e) {
-					// TODO
-				}
-				break;
-
-
-				case "4":
-					activ = false;
-					break;
-
-				default:
-					break;
-			}
-		}
-
-	}
 }
-
-

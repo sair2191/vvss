@@ -1,92 +1,93 @@
-package controller;
+package evaluator.controller;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
-import exception.DuplicateException;
-import exception.NotAbleToCreateStatisticsException;
-import exception.NotAbleToCreateTestException;
-import model.Question;
-import model.Quiz;
-import model.Statistic;
-import repository.QuizRepository;
-
+import evaluator.exception.InputValidationFailedException;
+import evaluator.model.Intrebare;
+import evaluator.model.Statistica;
+import evaluator.model.Test;
+import evaluator.repository.IntrebariRepository;
+import evaluator.exception.DuplicateIntrebareException;
+import evaluator.exception.NotAbleToCreateStatisticsException;
+import evaluator.exception.NotAbleToCreateTestException;
 
 public class AppController {
 
-	private QuizRepository questionRepository;
+    private IntrebariRepository intrebariRepository;
 
-	public AppController() {
-		questionRepository = new QuizRepository();
-	}
+    public IntrebariRepository getIntrebariRepository() {
+        return intrebariRepository;
+    }
 
-	public Question addNewQuestion(Question quiz) throws DuplicateException, IOException {
+    public void setIntrebariRepository(IntrebariRepository intrebariRepository) {
+        this.intrebariRepository = intrebariRepository;
+    }
 
-		questionRepository.add(quiz);
-		System.out.println("Intrebare adaugata cu succes");
+    public AppController() {
+        intrebariRepository = new IntrebariRepository();
+    }
 
-		return quiz;
-	}
+    public Intrebare addNewIntrebare(Intrebare intrebare) throws DuplicateIntrebareException {
 
-	public boolean exists(Question quiz){
-		return questionRepository.exists(quiz);
-	}
+        intrebariRepository.addIntrebare(intrebare);
 
-	public Quiz createNewTest() throws NotAbleToCreateTestException {
+        return intrebare;
+    }
 
+    public boolean exists(Intrebare intrebare) {
+        return intrebariRepository.exists(intrebare);
+    }
 
-		if(questionRepository.getQuestions().size() < 5)
-			throw new NotAbleToCreateTestException("Nu exista suficiente intrebari pentru crearea unui test!(5)");
+    public Test createNewTest() throws NotAbleToCreateTestException {
+        if (intrebariRepository.getIntrebari().size() < 5)
+            throw new NotAbleToCreateTestException("Nu exista suficiente intrebari pentru crearea unui test!(5)");
+        if (intrebariRepository.getNumberOfDistinctDomains() < 5)
+            throw new NotAbleToCreateTestException("Nu exista suficiente domenii pentru crearea unui test!(5)");
+        List<Intrebare> testIntrebari = new LinkedList<Intrebare>();
+        List<String> domenii = new LinkedList<String>();
+        Intrebare intrebare;
+        Test test = new Test();
+        while (testIntrebari.size() != 5) {
+            intrebare = intrebariRepository.pickRandomIntrebare();
+            if (!testIntrebari.contains(intrebare) && !domenii.contains(intrebare.getDomeniu())) {
+                testIntrebari.add(intrebare);
+                domenii.add(intrebare.getDomeniu());
+            }
+        }
+        test.setIntrebari(testIntrebari);
+        return test;
+    }
 
-		if(questionRepository.getNumberOfDistinctDomains() < 5)
-			throw new NotAbleToCreateTestException("Nu exista suficiente domenii pentru crearea unui test!(5)");
+    public void loadIntrebariFromFile(String f) {
+        intrebariRepository.setIntrebari(intrebariRepository.loadIntrebariFromFile(f));
+    }
 
+    public Statistica getStatistica() throws NotAbleToCreateStatisticsException {
 
+        if (intrebariRepository.getIntrebari().isEmpty())
+            throw new NotAbleToCreateStatisticsException("Repository-ul nu contine nicio intrebare!");
 
-		List<Question> testIntrebari = new LinkedList<Question>();
-		List<String> domenii = new LinkedList<String>();
-		Question quiz;
-		Quiz test = new Quiz();
+        Statistica statistica = new Statistica();
+        for (String domeniu : intrebariRepository.getDistinctDomains()) {
+            statistica.add(domeniu, intrebariRepository.getNumberOfIntrebariByDomain(domeniu));
+        }
 
-		while(testIntrebari.size() != 5){
-			if(testIntrebari.size()<5){
-				quiz = questionRepository.pickRandomQuiz();
+        return statistica;
+    }
 
-				if(!testIntrebari.contains(quiz) && !domenii.contains(quiz.getDomain())){
-					testIntrebari.add(quiz);
-					domenii.add(quiz.getDomain());
-				}
+    public Set<String> getUniqueDomains() {
+        return intrebariRepository.getDistinctDomains();
+    }
 
-			}
-		}
-		if(testIntrebari.size() == 5) {
-			test.setQuestions(testIntrebari);
-			System.out.println("Quiz creat cu succes");
-}
-		return test;
-
-				}
-
-	public void loadQuestionsFromFile(String f){
-		questionRepository.setQuestions(questionRepository.loadQuestionsFromFile(f));
-	}
-
-	public Statistic getStatistic() throws NotAbleToCreateStatisticsException {
-
-		if(questionRepository.getQuestions().isEmpty())
-			throw new NotAbleToCreateStatisticsException("Repository-ul nu contine nicio intrebare!");
-		Statistic statistic = new Statistic();
-		for(String domeniu : questionRepository.getDistinctDomains()	){
-			statistic.add(domeniu, questionRepository.getNumberOfQuestionByDomain(domeniu));
-		}
-
-		return statistic;
-	}
-
-	public QuizRepository getQuestionRepository(){
-		return this.questionRepository;
-	}
+    public void addQuestion(String enunt, String s, String s1, String s2, String raspunsCorect, String s3) throws DuplicateIntrebareException, InputValidationFailedException {
+        Intrebare intrebare = new Intrebare(enunt, s, s1, s2, raspunsCorect, s3);
+        addNewIntrebare(intrebare);
+    }
 }

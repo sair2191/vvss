@@ -1,4 +1,4 @@
-package exception;
+package evaluator.exception;
 
 public class NotAbleToCreateStatisticsException extends Exception {
 

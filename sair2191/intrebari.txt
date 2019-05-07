@@ -1,119 +1,35 @@
-Intrebare?
-1)dsa
-2) sda
-3) dsa
-1
-Test
-##
-Alta intrebare?
-1)dsa
-2) sda
-3) dsa
-1
-Domeniu
-##
-Ce faci?
-1) nimic
-2) bine
-3) etc
+Cat face 1+1=?
+1.1
+2.2
+3.3
 2
-Plictiseala
+Mate
 ##
-Ce faci din nou?
-1) nimic
-2) bine
-3) etc
+Cat face 1+2=?
+1.1
+2.2
+3.3
+3
+Info
+##
+Cat face 1+3=?
+1.1
+2.2
+3.4
+3
+Romana
+##
+Cat face 1+4=?
+1.5
+2.2
+3.3
+1
+Engleza
+##
+Cat face 1+5=?
+1.1
+2.6
+3.3
 2
-Plictiseala2
-##
-Ce faci din nou si iar?
-1) nimic
-2) bine
-3) etc
-2
-Plictiseala3
-##
-Ce este?
-1) sda
-2) dsa
-3) dsa
-2
-Test
-##
-Ce este v2?
-1) sda
-2) dsa
-3) dsa
-2
-Test
-##
-Ce este?
-1)2
-2)3
-3)3
-1
-Fizica
-##
-Ce este?
-1)2
-2)3
-3)3
-1
-Fizica
-##
-Ce este?
-1)2
-2)3
-3)3
-1
-Fizica
-##
-Ce este?
-1)2
-2)3
-3)3
-1
-Fizica
-##
-Ce este?
-1)2
-2)3
-3)3
-1
-Fizica
-##
-Ce este?
-1)2
-2)3
-3)3
-1
-Fizica
-##
-Ce este?
-1)2
-2)3
-3)3
-1
-Fizica
-##
-Ce este?
-1)2
-2)3
-3)3
-1
-Fizica
-##
-Ce este?
-1)2
-2)3
-3)3
-1
-Fizica
-##
-Ce este?
-1)2
-2)3
-3)3
-1
-Fizica
+Ubb
 ##

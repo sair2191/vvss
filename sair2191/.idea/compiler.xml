@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ProiectEvaluatorExamen" />
+        <module name="vvss_vcir2435" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ProiectEvaluatorExamen" target="1.7" />
+      <module name="vvss_vcir2435" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
