@@ -46,14 +46,4 @@ public class F01Test {
                 "crezi ca a trebui sa scrii ca sa  obtii 100 caractere ?","1)10 ani","2)2","3)3","2","Mate");
         assertEquals(controller.getIntrebariRepository().getIntrebari().size(),1);
     }
-
-    @Test(expected = InputValidationFailedException.class)
-    public void ecp1() throws DuplicateIntrebareException, InputValidationFailedException {
-        controller.addQuestion("","","","","","");
-    }
-    @Test
-    public void ecp2() throws DuplicateIntrebareException, InputValidationFailedException {
-        controller.addQuestion("E=?","1)","2)2","3)3","2","Mate");
-        assertEquals(controller.getIntrebariRepository().getIntrebari().size(),1);
-    }
 }
