@@ -9,7 +9,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class F02Test {
+public class F02Test_valid {
 
     private AppController controller;
 
@@ -27,12 +27,6 @@ public class F02Test {
     public void valid() throws NotAbleToCreateTestException {
         evaluator.model.Test t =  controller.createNewTest();
         assert t != null;
-    }
-
-    @Test(expected = NotAbleToCreateTestException.class)
-    public void nonValid() throws NotAbleToCreateTestException {
-        controller.getIntrebariRepository().getIntrebari().clear();
-        controller.createNewTest();
     }
 
     @Test(expected = NotAbleToCreateTestException.class)
